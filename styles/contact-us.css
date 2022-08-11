@@ -1,0 +1,32 @@
+.contact-us {
+  margin-bottom: 20px;
+  background-color: var(--white-main);
+}
+
+.contact-us__title {
+  padding: 10px 10px 0;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.contact-us__img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.contact-us__icon {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.contact-us__info {
+  margin: 0 10px 20px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-us {
+    font-size: 16px;
+  }
+}

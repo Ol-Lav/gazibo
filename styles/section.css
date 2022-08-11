@@ -1,0 +1,9 @@
+.section {
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--white-main);
+}
+
+.section:last-child {
+  margin-bottom: 20px;
+  border: none;
+}

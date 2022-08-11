@@ -1,0 +1,31 @@
+.gazebo {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.gazebo__img {
+  width: 50%;
+}
+
+.gazebo__title {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+.gazebo__subtitle {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+  .gazebo {
+    flex-wrap: wrap;
+  }
+
+  .gazebo__img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,50 @@
+.footer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: var(--white-main);
+  background-color: var(--blue-main);
+}
+
+.footer__link {
+  color: var(--white-main);
+  transition: color 0.2s;
+}
+
+.footer__link:hover {
+  color: var(--yellow-main);
+}
+
+.footer__button {
+  height: 60%;
+  margin: 20px;
+  padding: 0 10px;
+  border: 1px solid var(--blue-main);
+  background-color: var(--white-main);
+  transition: all 0.2s;
+}
+
+.footer__button:hover {
+  color: var(--white-main);
+  border: 1px solid var(--white-main);
+  background-color: var(--blue-main);
+}
+
+.footer__button-link {
+  color: var(--blue-main);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer__button-link:hover {
+  color: var(--white-main);
+}
+
+@media screen and (max-width: 500px) {
+  .footer__button {
+    margin: 10px;
+    padding: 0 5px;
+  }
+}

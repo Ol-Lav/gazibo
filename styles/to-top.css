@@ -1,0 +1,19 @@
+.to-top {
+  display: flex;
+  justify-content: end;
+  margin: 5px;
+  font-size: 24px;
+}
+
+.to-top__link {
+  padding: 10px;
+  font-weight: bold;
+  color: var(--white-main);
+  background-color: var(--yellow-main);
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+.to-top__link:hover {
+  color: var(--yellow-main);
+  background-color: var(--white-main);
+}

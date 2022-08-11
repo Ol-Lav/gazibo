@@ -1,0 +1,71 @@
+.accordion {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion__label,
+.accordion__content {
+  padding: 10px;
+}
+
+.accordion__label {
+  display: block;
+  position: relative;
+  margin-bottom: 15px;
+  color: var(--grey-dark);
+  font-weight: bold;
+  cursor: pointer;
+  background-color: var(--white-main);
+  transition: all 0.2s;
+}
+
+.accordion__label:hover {
+  background-color: var(--yellow-main);
+  color: var(--white-main);
+}
+
+.accordion__content {
+  display: none;
+  font-size: 14px;
+}
+
+.accordion__input {
+  display: none;
+}
+
+.accordion__input:checked ~ .accordion__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.accordion__content-FAQ {
+  display: none;
+  margin-bottom: 30px;
+}
+
+.accordion__input:checked ~ .accordion__content-FAQ {
+  display: block;
+}
+
+.accordion__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.accordion__link {
+  color: var(--grey-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.accordion__link:hover {
+  color: var(--yellow-main);
+}
+
+@media screen and (max-width: 500px) {
+  .accordion__input:checked ~ .accordion__content {
+    display: block;
+  }
+}

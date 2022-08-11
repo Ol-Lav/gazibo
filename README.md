@@ -1,2 +1,2 @@
 Demo
-- [DEMO LINK](https://ol-lav.github.io/Gazebo/)
+- [DEMO LINK](https://ol-lav.github.io/gazibo/)
